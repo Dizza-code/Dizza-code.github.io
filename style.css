@@ -1,0 +1,67 @@
+body 
+    {background: #101314;}
+    h1, h2, h3, h4 {
+        border-bottom: 1px solid #ccc;
+        color: yellow;
+        padding-bottom: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    h1{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+
+    img{
+        padding-left: 125px;
+    }
+
+    .container {
+        margin: auto;
+        width: 400px;
+        
+        
+    }
+
+    .container h4{
+        text-align: center;
+    }
+    label{
+        color:white;
+    }
+
+    .data{
+        color: #ffffff;
+    }
+    .skills{
+        color: #ffffff;
+    }
+
+    .sum{
+        text-align: center;
+    }
+    
+    p{
+        color: #ffffff;
+    }
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    input[type=submit] {
+        border: none;
+        border-radius: 4px;
+        padding: 5px 5px;
+        margin-top: 5px;
+        background: silver;
+        font-weight: bold;
+        
+    }
+
