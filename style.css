@@ -1,67 +1,105 @@
-body 
-    {background: #101314;}
-    h1, h2, h3, h4 {
-        border-bottom: 1px solid #ccc;
-        color: yellow;
-        padding-bottom: 8px;
-        font-family: Arial, Helvetica, sans-serif;
+body {
+background-color: #062863;
+padding: 48px 0px;
+font-family: Arial, Arial, Helvetica, sans-serif;
+/*background-image: 
+url('background11.jpg'),
+url('background22.jpg'),
+url('background44.jpg'),
+url('background55.jpg');
+background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+background-size: 15%;
+background-position: left -1% top -15%;*/
+}
 
-    }
-    h1{
-        text-align: center;
-    }
-    h3{
-        text-align: center;
-    }
 
-    img{
-        padding-left: 125px;
-    }
+.container {
+    background-color: #ffffff;
+    padding: 40px 40px 48px 40px;
+    margin: 50px auto;
+    width: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    min-width: 200px;
+}
 
-    .container {
-        margin: auto;
-        width: 400px;
-        
-        
-    }
-
-    .container h4{
-        text-align: center;
-    }
-    label{
-        color:white;
-    }
-
-    .data{
-        color: #ffffff;
-    }
-    .skills{
-        color: #ffffff;
-    }
-
-    .sum{
-        text-align: center;
-    }
+input  {
+    background: #EDF2F7;
+    padding: 16px 16px 16px 16px;
+    min-width: 325px;
+    border: 0px solid ;
+    margin-bottom: 30px;
+    border-radius: 2px 2px 2px 2px;
     
-    p{
-        color: #ffffff;
-    }
-    input[type=text], select, textarea {
-        width: 100%;
-        padding: 5px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 5px;
-        margin-bottom: 8px;
-    }
-    input[type=submit] {
-        border: none;
-        border-radius: 4px;
-        padding: 5px 5px;
-        margin-top: 5px;
-        background: silver;
-        font-weight: bold;
-        
-    }
+    
+}
 
+#information input[type="text"]{
+    color: grey;
+}
+
+
+label {
+    color: #4a5568;
+    font-style: bold;
+    font-size: 12px;
+    margin: 0px 0px 4px 0px;
+}
+
+.info select {
+    background: #edf2f7;
+    padding: 0px;
+    min-width: 356px;
+    border: 0px solid #e2e8f0;
+    padding: 16px 16px 16px 16px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    font-style: bold;
+    font: 24px U8, sans-serif;
+    
+}
+
+.adjust {
+    color: grey;
+    padding-bottom: 30px;
+    font: 14px karla, sans-serif;
+    text-align: center;
+    margin-top: auto;
+    
+    
+}
+
+.logo {
+      position:relative;
+      padding-left: 525px;
+      padding-top: 0px;       
+}
+
+h3 {
+    color: #08389e;
+}
+
+button {
+    padding: 20px 40px 16px 40px;
+    background: #083e9e;
+    color: #ffffff;
+    min-width: 357px;
+    border: 0px solid;
+    
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+footer {
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    
+}
