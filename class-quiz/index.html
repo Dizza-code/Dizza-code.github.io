@@ -1,0 +1,68 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Class-quiz</title>
+			<meta name="viewport" content="width=device-width, intial-scale=1.0">
+			<!--<link rel="stylesheet" href="style.css">-->
+			<style>
+            .text-red{
+            	color: red;
+            }
+
+            </style>
+	
+	</head>
+		<body>
+			<!--<main>
+				<div class="row center">
+				<div class="col-12 small-height">Page template</div>
+				</div>
+
+				<div class="row half-height">
+				<div class="col-3 center inherit">Img</div>
+				<div class="col-6 inherit">
+					<div class="row">
+						<div class="col-12 mb-2">A.</div>
+						<div class="col-12 mb-2">B.</div>
+						<div class="col-12 mb-2">C.</div>
+						<div class="col-12 mb-2">D.</div>
+					</div> 
+				</div>
+				<div class="col-3 inherit">button</div>
+			</div>
+
+			<div class="row center">
+				<div class="col-12 small-height">footer</div>
+				</div>
+			</main>-->
+
+			<main>
+				<button id="add-content">Add content</button>
+			</main>
+
+			<script>
+
+				const main = document.querySelector("main")
+				function addElement(){
+				let newParagraph = document.createElement("p");
+				newParagraph.innerText = "This is a new paragraph";
+				main.appendChild(newParagraph);
+				let newBtn = document.createElement("button");
+				newBtn.innerHTML = "Click me";
+				newBtn.addEventListener('click', function(){
+					newBtn.previousElementSibling.classList.toggle('text-red');
+				})
+				main.appendChild(newBtn);
+				}
+
+				const btn = document.querySelector("#add-content");
+				btn.addEventListener('click', addElement)
+				/*btn.addEventListener('click', function(){
+					alert('correct')
+				})*/
+
+
+			</script>
+		</body>
+	
+</html>

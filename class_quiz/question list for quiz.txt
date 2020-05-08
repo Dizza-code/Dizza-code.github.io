@@ -1,0 +1,25 @@
+***QUESTIONS***
+
+q1: Who is the president of Nigeria from 2015 till date?
+    option1: Goodluck Jonathan
+    option2: Ren Omokri
+    option3: Muhammed Buhari
+    option4: Shehu Shagari
+
+q2: What is the capital of Nigeria?
+    option1: Lagos
+    option2: Abuja
+    option3: Kano
+    option4: Anambra
+
+q3: Nigeria gained independence in what year?
+    option1: 1960
+    option2: 1944
+    option3: 1867
+    option4: 1961
+
+q4: who is the founder of Facebook
+option1: Larry Page
+option2: jeff becoz
+option3: Femi Otedola
+option4: Mark Zuckerberg 
