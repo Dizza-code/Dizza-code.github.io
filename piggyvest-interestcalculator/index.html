@@ -1,0 +1,202 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>PiggyVest InterestCalculator</title>
+</head>
+<body>
+ <nav class="navbar navbar-expand-sm">
+    <div class="container">
+      <img src="img/piggy.png">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <i class="fa fa-bars" style="font-size:36px;color: #E3B6A4;"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Stories</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>  
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Blog</a>
+          </li>   
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Log In</a>
+          </li> 
+        </ul>
+      </div>
+      </div>
+    </nav>
+  <!-- end of nav element -->
+  <!-- header section -->
+ <div class="container">
+	<span class="question"><h1><b>How much interest can i earn?</b></h1></span>
+	<form>
+	 <div class="inputs" >
+		<div class="output">
+		<label for="amount">How much do you want to save?</label><br>
+		<input type="number" name="amu" id="p">
+	    </div>
+
+	    <div class="output">
+		<label for="amount">Interest Rate</label><br>
+		<!--<input type="text" id="rat">-->
+		<select id="r">
+			<option>10% per annum</option>
+		</select>
+	    </div>
+
+        <div class="output">
+		<label for="amount">Number of Years</label><br>
+		<input type="number" id="n">
+	    </div>
+
+	 </div>
+	</form>
+	<div class="click">
+	  <input type="button" value="Calculate" class="calBtn">
+	</div>
+
+	    <div class="cal">
+	    	 <h2>Total</h2>
+
+	    	<h6 id="exp"></h6>
+	    </div>
+ </div>
+
+
+
+
+
+
+
+   <footer class="footer py-5">
+      <div class="container text-md-left">
+          <div class="row">
+              <!-- <div class=" d-flex"> -->
+                  <div class="slide col-12 col-md-4 mb-md-0 mb-3" data-aos="fade-up" data-aos-delay="150">
+                    <div class="float-left">
+                      <img src="img/piggy1.png">
+                      <div><p>
+                      	PiggyVest (formerly piggybank.ng) is the greatest online savings & invest platfrom in Nigeria.
+                      	For Over 4 years our customers have saved and invested billions that they will normally be tempted to spend.</p>
+                      	<p>
+                      		Office: Tesmat, House 3 Abdulrahman Okene Close , off Ligali street, Victoria Island, Lagos.
+                      	</p>
+                      	<p>
+                      		0700933933933 (Mon-Fri from 9am-5pm)-contact@piggyvest.com
+                      	</p>
+
+                      </div>
+                      <ul class="list-unstyled">
+                          <li>
+                            <div class=" footer-copyright mt-3">© 2020 Copyright: PiggyTech Global Limited
+                            	RC-1405222
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+
+                  
+                  <!--<div class="slide col-12 col-md-2 mb-md-0 mb-3" data-aos="fade-up" data-aos-delay="200">
+                      <h4 class="text-uppercase">hotel</h4>
+                      <ul class="list-unstyled">
+                          <li>
+                           Special Offer
+                          </li>
+                          <li>
+                            Room & Rates
+                           </li>
+                           <li>
+                            Restaurant
+                           </li>
+                           <li>
+                            Events
+                           </li>
+                           <li>
+                            Car Rentals
+                           </li>
+                           <li>
+                            Fitness Programme
+                           </li>
+                           <li>
+                            Special Offer
+                           </li>
+                           <li>
+                            Holiday Packages
+                           </li>
+                        </ul>
+                  </div>-->
+                  <div class="slide col-12 col-md-3 mb-md-0 mb-3" data-aos="fade-up" data-aos-delay="250">
+                      <h4 class="text-uppercase">Company</h4>
+                      <ul class="list-unstyled">
+                          <li>
+                            About
+                          </li>
+                          <li>
+                            FAQs
+                          </li>
+                          <li>
+                            Terms of use
+                          </li>
+                          <li>
+                            Privacy Policy
+                          </li>
+                        </ul>
+                        <i class="fa fa-facebook-square" style="font-size:36px"></i>
+                      <i class="fa fa-twitter-square" style="font-size:36px"></i>
+                      <i class="fa fa-instagram" style="font-size:36px"></i>
+                  </div>
+                  <div class="footer-btn col-12 col-md-3 mt-md-0 mb-3 clearfix" data-aos="fade-up" data-aos-delay="250">
+                    <h4 class="text-uppercase">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li class="pt-2">
+                         AutoSave<sup>TM</sup>
+                        </li>
+                        <li class="pt-2">
+                          Piggylink
+                        </li>
+                        <li class="pt-2">
+                          Quick Save<sup>TM</sup>
+                        </li>
+                        <li class="pt-2">
+                          Save Lock
+                        </li>
+                        <li class="pt-2">
+                          Withdrawals and Breaking Salary Management 
+                        </li>
+                      </ul>
+                  </div>
+              <!-- </div> -->
+          </div>
+      </div>
+  </footer>
+
+
+
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/script.js"></script>
+</body>
+</html>
