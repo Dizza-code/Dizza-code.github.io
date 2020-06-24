@@ -1,0 +1,23 @@
+body {
+
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container{
+	width: 100%;
+}
+header h1{
+	margin: 0;
+
+	background: black;
+	
+	height: 120px;
+	
+}
+#top{
+	text-align: center;
+	line-height: -2px;
+}
